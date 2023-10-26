@@ -1,0 +1,1 @@
+let like:number =20;
