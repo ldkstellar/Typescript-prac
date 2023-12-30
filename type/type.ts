@@ -46,7 +46,7 @@ const myPerson:Person = {
 
 const key:PersonKey = "age"
 const studentName = myPerson[key];
-myPerson["age"]
+console.log(myPerson["age"]);
 console.log(studentName);
 
 
@@ -65,4 +65,7 @@ class Test<T>{
 
 const grade = new Test<number>(3);
 grade.read();
+
+
+
 

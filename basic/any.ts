@@ -20,3 +20,6 @@ function leackingAny(obj:any){
 
 const c = leackingAny({num:0});
 // c.indexOf("0");
+
+export {any1};
+
